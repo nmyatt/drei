@@ -247,7 +247,7 @@ const ScrollHtml: ForwardRefComponent<{ children?: React.ReactNode; style?: Reac
       root.render(
         <div
           ref={group}
-          style={{ ...style, position: 'absolute', top: 0, left: 0, willChange: 'transform' }}
+          style={{ ...style, position: 'absolute', top: 0, left: 0, bottom: 0, right: 0, willChange: 'transform' }}
           {...props}
         >
           <context.Provider value={state}>
